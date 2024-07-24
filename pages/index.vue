@@ -244,7 +244,9 @@
                 <div class="flex flex-col gap-[24px] rounded-xl bg-c-brown p-[24px] xl:flex-row xl:p-[42px]">
                     <div class="flex flex-col gap-[24px]">
                         <p class="font-32 font-semibold text-c-white">Avoid Misunderstandings and Switch with Ofon!</p>
-                        <p class="font-16 text-c-white">Need to change the way your business communicate?</p>
+                        <p class="font-16 text-c-white">
+                            Need to optimize the way your business communicate? Contact us and get a free audit.
+                        </p>
                         <a href="#forms" class="btn xl:w-fit">Contact Us</a>
                     </div>
                     <img src="/img/call.png" />
