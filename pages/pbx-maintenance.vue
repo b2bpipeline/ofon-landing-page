@@ -15,11 +15,14 @@
                     </p>
                     <div class="flex items-center gap-2 xl:gap-4">
                         <p class="font-16 font-bold">Certified Engineer by</p>
-                        <img src="/img/microsoft.png" alt="" class="" />
+                        <img src="/img/microsoft.png" class="" />
                     </div>
-                    <a href="/" class="btn">Contact Us</a>
+                    <div class="grid grid-cols-1 gap-[16px] xl:grid-cols-2">
+                        <WhatsAppUs />
+                        <a href="#forms" class="btn-outline">Get a Free Audit</a>
+                    </div>
                 </div>
-                <div><img src="/img/3hero.png" alt="" /></div>
+                <div><img src="/img/3hero.png" /></div>
             </div>
         </section>
 
@@ -43,7 +46,7 @@
                     </div>
                 </div>
                 <div class="flex flex-col gap-[16px] xl:grid xl:grid-cols-3 xl:gap-[36px]">
-                    <div class="border-c-orange card-hover overflow-hidden rounded-xl border-2">
+                    <div class="card-hover overflow-hidden rounded-xl border-2 border-c-orange">
                         <img src="/img/aio1.png" class="w-full" />
                         <div class="p-[16px]">
                             <p class="font-16 mb-2 font-bold">Cisco PBX</p>
@@ -53,7 +56,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="border-c-orange card-hover overflow-hidden rounded-xl border-2">
+                    <div class="card-hover overflow-hidden rounded-xl border-2 border-c-orange">
                         <img src="/img/aio2.png" class="w-full" />
                         <div class="p-[16px]">
                             <p class="font-16 mb-2 font-bold">Avaya PBX</p>
@@ -63,7 +66,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="border-c-orange card-hover overflow-hidden rounded-xl border-2">
+                    <div class="card-hover overflow-hidden rounded-xl border-2 border-c-orange">
                         <img src="/img/aio3.png" class="w-full" />
                         <div class="p-[16px]">
                             <p class="font-16 mb-2 font-bold">Panasonic PBX</p>
@@ -73,7 +76,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="border-c-orange card-hover overflow-hidden rounded-xl border-2">
+                    <div class="card-hover overflow-hidden rounded-xl border-2 border-c-orange">
                         <img src="/img/aio4.png" class="w-full" />
                         <div class="p-[16px]">
                             <p class="font-16 mb-2 font-bold">NEC PBX</p>
@@ -83,7 +86,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="border-c-orange card-hover overflow-hidden rounded-xl border-2">
+                    <div class="card-hover overflow-hidden rounded-xl border-2 border-c-orange">
                         <img src="/img/aio5.png" class="w-full" />
                         <div class="p-[16px]">
                             <p class="font-16 mb-2 font-bold">Alcatel PBX</p>
@@ -101,46 +104,46 @@
         <section v-motion-slide-visible-once-left :duration="500" class="section">
             <div class="div flex flex-col items-center gap-[40px] xl:flex-row xl:gap-[80px]">
                 <div class="flex flex-col gap-[16px] xl:gap-[24px]">
-                    <p class="font-32 text-c-orange font-bold xl:font-semibold">Support for Your Legacy Phone System</p>
+                    <p class="font-32 font-bold text-c-orange xl:font-semibold">Support for Your Legacy Phone System</p>
                     <p class="font-14 font-medium">
                         Is your legacy phone system giving you trouble? Our expert maintenance service is here to help!
                     </p>
                     <div class="flex w-full flex-col gap-[8px] xl:gap-[20px]">
                         <div class="flex justify-start gap-4">
-                            <img src="/img/checklist.png" alt="" class="h-fit" />
+                            <img src="/img/checklist.png" class="h-fit" />
                             <p class="font-16 font-bold">Experienced Technicians</p>
                         </div>
                         <div class="flex justify-start gap-4">
-                            <img src="/img/checklist.png" alt="" class="h-fit" />
+                            <img src="/img/checklist.png" class="h-fit" />
                             <p class="font-16 font-bold">24/7 Reliable Support</p>
                         </div>
                         <div class="flex justify-start gap-4">
-                            <img src="/img/checklist.png" alt="" class="h-fit" />
+                            <img src="/img/checklist.png" class="h-fit" />
                             <p class="font-16 font-bold">Existing Infrastructure Integration</p>
                         </div>
                     </div>
                 </div>
-                <img src="/img/3-feature1.png" alt="" class="xl:order-1" />
+                <img src="/img/3-feature1.png" class="xl:order-1" />
             </div>
         </section>
         <section v-motion-slide-visible-once-right :duration="500" class="section">
             <div class="div flex flex-col items-center gap-[40px] xl:flex-row xl:gap-[80px]">
                 <div class="flex flex-col gap-[16px] xl:order-1 xl:gap-[24px]">
-                    <p class="font-32 text-c-orange font-bold xl:font-semibold">Integrate & Migrate to Cloud PBX</p>
+                    <p class="font-32 font-bold text-c-orange xl:font-semibold">Integrate & Migrate to Cloud PBX</p>
                     <p class="font-14 font-medium">
                         Ready to modernize your phone system? Migrate to our Cloud PBX and experience the benefits!
                     </p>
                     <div class="flex w-full flex-col gap-[8px] xl:gap-[20px]">
                         <div class="flex justify-start gap-4">
-                            <img src="/img/checklist.png" alt="" class="h-fit" />
+                            <img src="/img/checklist.png" class="h-fit" />
                             <p class="font-16 font-bold">Cost Saving</p>
                         </div>
                         <div class="flex justify-start gap-4">
-                            <img src="/img/checklist.png" alt="" class="h-fit" />
+                            <img src="/img/checklist.png" class="h-fit" />
                             <p class="font-16 font-bold">Flexibility and Reliability</p>
                         </div>
                         <div class="flex justify-start gap-4">
-                            <img src="/img/checklist.png" alt="" class="h-fit" />
+                            <img src="/img/checklist.png" class="h-fit" />
                             <p class="font-16 font-bold">Advanced Features & Integrations</p>
                         </div>
                     </div>
@@ -155,45 +158,45 @@
         <!-- Transform PBX System -->
         <section v-motion-slide-visible-once-right :duration="500" class="section bg-c-yellow-light xl:bg-c-white">
             <div class="div flex flex-col gap-[36px] xl:gap-[60px]">
-                <div class="xl:bg-c-yellow-light flex flex-col gap-[32px] xl:gap-[60px] xl:rounded-3xl xl:p-[50px]">
-                    <h2 class="font-32 text-c-black text-center font-bold xl:font-semibold">
+                <div class="flex flex-col gap-[32px] xl:gap-[60px] xl:rounded-3xl xl:bg-c-yellow-light xl:p-[50px]">
+                    <h2 class="font-32 text-center font-bold text-c-black xl:font-semibold">
                         Transform Your PBX System with Ofon
                     </h2>
                     <div class="flex flex-col gap-[24px] xl:grid xl:grid-cols-4 xl:flex-row xl:gap-[40px]">
                         <div class="flex flex-col items-center gap-[24px] rounded-xl p-[12px] transition hover:bg-[#FFE3A4]">
-                            <img src="/img/3-solution1.png" alt="" class="h-[64px] w-[64px] xl:h-[80px] xl:w-[80px]" />
+                            <img src="/img/3-solution1.png" class="h-[64px] w-[64px] xl:h-[80px] xl:w-[80px]" />
                             <div>
-                                <p class="font-16 text-c-black mb-[8px] text-center font-bold">No Pressure to Upgrade</p>
-                                <p class="font-14 font-regular text-c-black text-center">
+                                <p class="font-16 mb-[8px] text-center font-bold text-c-black">No Pressure to Upgrade</p>
+                                <p class="font-14 font-regular text-center text-c-black">
                                     We focus on your needs. You have the freedom to decide when or if you want to upgrade to cloud
                                     without feeling obligated to do so.
                                 </p>
                             </div>
                         </div>
                         <div class="flex flex-col items-center gap-[24px] rounded-xl p-[12px] transition hover:bg-[#FFE3A4]">
-                            <img src="/img/3-solution2.png" alt="" class="h-[64px] w-[64px] xl:h-[80px] xl:w-[80px]" />
+                            <img src="/img/3-solution2.png" class="h-[64px] w-[64px] xl:h-[80px] xl:w-[80px]" />
                             <div>
-                                <p class="font-16 text-c-black mb-[8px] text-center font-bold">Dedicated Support Team</p>
-                                <p class="font-14 font-regular text-c-black text-center">
+                                <p class="font-16 mb-[8px] text-center font-bold text-c-black">Dedicated Support Team</p>
+                                <p class="font-14 font-regular text-center text-c-black">
                                     Our professionals dedicated to providing and solving your legacy phone system. Ensure that
                                     your system runs smoothly and effectively.
                                 </p>
                             </div>
                         </div>
                         <div class="flex flex-col items-center gap-[24px] rounded-xl p-[12px] transition hover:bg-[#FFE3A4]">
-                            <img src="/img/3-solution3.png" alt="" class="h-[64px] w-[64px] xl:h-[80px] xl:w-[80px]" />
+                            <img src="/img/3-solution3.png" class="h-[64px] w-[64px] xl:h-[80px] xl:w-[80px]" />
                             <div>
-                                <p class="font-16 text-c-black mb-[8px] text-center font-bold">Guaranteed Multi-vendor Parts</p>
-                                <p class="font-14 font-regular text-c-black text-center">
+                                <p class="font-16 mb-[8px] text-center font-bold text-c-black">Guaranteed Multi-vendor Parts</p>
+                                <p class="font-14 font-regular text-center text-c-black">
                                     Offered to be compatible with various brands or models from different systems.
                                 </p>
                             </div>
                         </div>
                         <div class="flex flex-col items-center gap-[24px] rounded-xl p-[12px] transition hover:bg-[#FFE3A4]">
-                            <img src="/img/3-solution4.png" alt="" class="h-[64px] w-[64px] xl:h-[80px] xl:w-[80px]" />
+                            <img src="/img/3-solution4.png" class="h-[64px] w-[64px] xl:h-[80px] xl:w-[80px]" />
                             <div>
-                                <p class="font-16 text-c-black mb-[8px] text-center font-bold">Cost Saving up to 70%</p>
-                                <p class="font-14 font-regular text-c-black text-center">
+                                <p class="font-16 mb-[8px] text-center font-bold text-c-black">Cost Saving up to 70%</p>
+                                <p class="font-14 font-regular text-center text-c-black">
                                     Save a significant amount of money, specifically up to 60%, and making the option financially
                                     advantageous.
                                 </p>
@@ -208,28 +211,28 @@
         <section class="section bg-c-brown">
             <div class="div flex-col justify-between gap-10 xl:flex-row xl:items-center xl:gap-[120px]">
                 <div class="flex flex-col gap-6 xl:max-w-[480px]">
-                    <h2 class="font-32 text-c-white font-bold xl:font-semibold">Your Phone System Specialty Expert</h2>
-                    <p class="font-16 text-c-white font-medium">
+                    <h2 class="font-32 font-bold text-c-white xl:font-semibold">Your Phone System Specialty Expert</h2>
+                    <p class="font-16 font-medium text-c-white">
                         Get the expert services to revolutionize your telecommunications with Ofon
                     </p>
                     <div class="flex justify-between">
                         <div class="flex flex-col items-center">
-                            <p class="font-32 text-c-yellow text-center font-bold">20</p>
-                            <p class="font-14 text-c-white text-center font-bold">Big Cities</p>
+                            <p class="font-32 text-center font-bold text-c-yellow">20</p>
+                            <p class="font-14 text-center font-bold text-c-white">Big Cities</p>
                         </div>
                         <div class="flex flex-col items-center">
-                            <p class="font-32 text-c-yellow text-center font-bold">3299</p>
-                            <p class="font-14 text-c-white text-center font-bold">Customers</p>
+                            <p class="font-32 text-center font-bold text-c-yellow">3299</p>
+                            <p class="font-14 text-center font-bold text-c-white">Customers</p>
                         </div>
                         <div class="flex flex-col items-center">
-                            <p class="font-32 text-c-yellow text-center font-bold">28+</p>
-                            <p class="font-14 text-c-white text-center font-bold">Years Experience</p>
+                            <p class="font-32 text-center font-bold text-c-yellow">28+</p>
+                            <p class="font-14 text-center font-bold text-c-white">Years Experience</p>
                         </div>
                     </div>
 
-                    <a href="/" class="btn">Contact Us</a>
+                    <a href="#forms" class="btn">Read Case Study</a>
                 </div>
-                <div><img src="/img/3-cta-image.png" alt="" /></div>
+                <div><img src="/img/3-cta-image.png" /></div>
             </div>
         </section>
 
@@ -241,13 +244,16 @@
                     <p class="font-14">
                         No matter what phone system you use, we have solution to make your phone system running like new.
                     </p>
-                    <a href="" class="btn w-fit">Contact Us</a>
+                    <a href="#forms" class="btn w-fit">Contact Us</a>
                 </div>
                 <div>
-                    <img src="/img/hello.png" alt="" />
+                    <img src="/img/hello.png" />
                 </div>
             </div>
         </section>
+
+        <!-- Forms -->
+        <Forms />
 
         <!-- FAQ -->
         <FAQ />
@@ -256,3 +262,13 @@
         <Footer />
     </main>
 </template>
+
+<script setup>
+useSeoMeta({
+    title: 'Maintain & Support Your PBX Phone System',
+    ogTitle: 'Maintain & Support Your PBX Phone System',
+    description: 'A great solution for PBX maintenance and support with minimum cost and maximum benefit focusing on your needs.',
+    ogDescription:
+        'A great solution for PBX maintenance and support with minimum cost and maximum benefit focusing on your needs.',
+});
+</script>

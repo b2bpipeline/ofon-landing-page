@@ -13,11 +13,14 @@
                     </p>
                     <div class="flex items-center gap-2 xl:gap-4">
                         <p class="font-16 font-bold">Certified Engineer by</p>
-                        <img src="/img/microsoft.png" alt="" class="" />
+                        <img src="/img/microsoft.png" class="" />
                     </div>
-                    <a href="/" class="btn">Contact Us</a>
+                    <div class="grid grid-cols-1 gap-[16px] xl:grid-cols-2">
+                        <WhatsAppUs />
+                        <a href="#forms" class="btn-outline">Get a Free Audit</a>
+                    </div>
                 </div>
-                <div><img src="/img/hero-lp-1.png" alt="" /></div>
+                <div><img src="/img/hero-lp-1.png" /></div>
             </div>
         </section>
 
@@ -28,7 +31,7 @@
         <section v-motion-slide-visible-once-right :duration="500" class="section">
             <div class="div flex flex-col gap-[40px] xl:gap-[80px]">
                 <div class="flex flex-col gap-[24px] text-center">
-                    <h2 class="font-32 text-c-orange font-bold">Why We’re Here?</h2>
+                    <h2 class="font-32 font-bold text-c-orange">Why We’re Here?</h2>
                     <p class="font-16">
                         In the last decade,
                         <span class="font-bold">over 40% of mid-level companies</span> have faced major communication challenges
@@ -39,11 +42,11 @@
                 <div class="flex flex-col gap-[24px] text-center xl:flex-row xl:gap-[80px]">
                     <div class="flex flex-col gap-[24px]">
                         <p class="font-20 font-bold">On-premise PBX</p>
-                        <img src="/img/pbx2.png" alt="" />
+                        <img src="/img/pbx2.png" />
                     </div>
                     <div class="flex flex-col gap-[24px]">
                         <p class="font-20 font-bold">Ofon Cloud PBX</p>
-                        <img src="/img/pbx1.png" alt="" />
+                        <img src="/img/pbx1.png" />
                     </div>
                 </div>
             </div>
@@ -52,12 +55,12 @@
         <!-- We Make Communication -->
         <section v-motion-slide-visible-once-left :duration="500" class="section bg-c-brown">
             <div class="div flex flex-col gap-[36px] xl:gap-[60px]">
-                <h2 class="font-32 text-c-white text-center font-bold xl:font-semibold">
+                <h2 class="font-32 text-center font-bold text-c-white xl:font-semibold">
                     We Make Your Communication More Efficient
                 </h2>
                 <div class="flex flex-col gap-[24px] xl:flex-row xl:gap-[60px]">
-                    <div class="bg-c-white card-hover flex flex-col gap-[24px] rounded-xl p-[24px]">
-                        <img src="/img/feature1.png" alt="" class="h-[64px] w-[64px] xl:h-[80px] xl:w-[80px]" />
+                    <div class="card-hover flex flex-col gap-[24px] rounded-xl bg-c-white p-[24px]">
+                        <img src="/img/feature1.png" class="h-[64px] w-[64px] xl:h-[80px] xl:w-[80px]" />
                         <div>
                             <p class="font-16 mb-[8px] font-bold">Cost Reduction</p>
                             <p class="font-14 font-medium">
@@ -66,8 +69,8 @@
                             </p>
                         </div>
                     </div>
-                    <div class="bg-c-white card-hover flex flex-col gap-[24px] rounded-xl p-[24px]">
-                        <img src="/img/feature2.png" alt="" class="h-[64px] w-[64px] xl:h-[80px] xl:w-[80px]" />
+                    <div class="card-hover flex flex-col gap-[24px] rounded-xl bg-c-white p-[24px]">
+                        <img src="/img/feature2.png" class="h-[64px] w-[64px] xl:h-[80px] xl:w-[80px]" />
                         <div>
                             <p class="font-16 mb-[8px] font-bold">Saving Efficiently</p>
                             <p class="font-14 font-medium">
@@ -76,8 +79,8 @@
                             </p>
                         </div>
                     </div>
-                    <div class="bg-c-white card-hover flex flex-col gap-[24px] rounded-xl p-[24px]">
-                        <img src="/img/feature3.png" alt="" class="h-[64px] w-[64px] xl:h-[80px] xl:w-[80px]" />
+                    <div class="card-hover flex flex-col gap-[24px] rounded-xl bg-c-white p-[24px]">
+                        <img src="/img/feature3.png" class="h-[64px] w-[64px] xl:h-[80px] xl:w-[80px]" />
                         <div>
                             <p class="font-16 mb-[8px] font-bold">Hardware Elimination</p>
                             <p class="font-14 font-medium">
@@ -94,33 +97,59 @@
         <section v-motion-slide-visible-once-right :duration="500" class="section">
             <div class="div flex flex-col items-center gap-[40px] xl:flex-row xl:gap-[80px]">
                 <div class="">
-                    <p class="font-32 text-c-orange mb-[16px] font-bold xl:mb-[24px] xl:font-semibold">Ofon PBX</p>
+                    <p class="font-32 mb-[16px] font-bold text-c-orange xl:mb-[24px] xl:font-semibold">Maintenance & Support</p>
+                    <p class="font-14 font-medium">
+                        Optimize your budget by outsourcing the operation and maintenance of your legacy telephony infrastructure
+                        to our expert team.
+                    </p>
+                    <div class="mt-[20px] flex w-full flex-col gap-[8px] xl:gap-[20px]">
+                        <div class="flex items-center gap-4">
+                            <img src="/img/checklist.png" class="h-fit" />
+                            <p class="font-16 font-bold">Hardware & Software Maintenance</p>
+                        </div>
+                        <div class="flex items-center gap-4">
+                            <img src="/img/checklist.png" class="h-fit" />
+                            <p class="font-16 font-bold">Experienced Technicians</p>
+                        </div>
+                        <div class="flex items-center gap-4">
+                            <img src="/img/checklist.png" class="h-fit" />
+                            <p class="font-16 font-bold">Improve Call Efficiency</p>
+                        </div>
+                    </div>
+                </div>
+                <img src="/img/service4.png" />
+            </div>
+        </section>
+        <section v-motion-slide-visible-once-left :duration="500" class="section">
+            <div class="div flex flex-col items-center gap-[40px] xl:flex-row xl:gap-[80px]">
+                <div class="xl:order-1">
+                    <p class="font-32 mb-[16px] font-bold text-c-orange xl:mb-[24px] xl:font-semibold">Ofon Cloud PBX</p>
                     <p class="font-14 font-medium">
                         Join the league of modern businesses thriving with efficient communication solutions. Don't let the fear
                         of missing out on streamlined operations hold you back!
                     </p>
                     <div class="mt-[20px] flex w-full flex-col gap-[8px] xl:gap-[20px]">
                         <div class="flex items-center gap-4">
-                            <img src="/img/checklist.png" alt="" class="h-fit" />
+                            <img src="/img/checklist.png" class="h-fit" />
                             <p class="font-16 font-bold">Cost Saving</p>
                         </div>
                         <div class="flex items-center gap-4">
-                            <img src="/img/checklist.png" alt="" class="h-fit" />
+                            <img src="/img/checklist.png" class="h-fit" />
                             <p class="font-16 font-bold">Flexibility and Reliability</p>
                         </div>
                         <div class="flex items-center gap-4">
-                            <img src="/img/checklist.png" alt="" class="h-fit" />
+                            <img src="/img/checklist.png" class="h-fit" />
                             <p class="font-16 font-bold">Advanced Features & Integrations</p>
                         </div>
                     </div>
                 </div>
-                <img src="/img/service1.png" alt="" />
+                <img src="/img/service1.png" />
             </div>
         </section>
-        <section v-motion-slide-visible-once-left :duration="500" class="section">
+        <section v-motion-slide-visible-once-right :duration="500" class="section">
             <div class="div flex flex-col items-center gap-[40px] xl:flex-row xl:gap-[80px]">
-                <div class="xl:order-1">
-                    <p class="font-32 text-c-orange mb-[16px] font-bold xl:mb-[24px] xl:font-semibold">
+                <div class="">
+                    <p class="font-32 mb-[16px] font-bold text-c-orange xl:mb-[24px] xl:font-semibold">
                         Phone System Integration
                     </p>
                     <p class="font-14 font-medium">
@@ -129,46 +158,20 @@
                     </p>
                     <div class="mt-[20px] flex w-full flex-col gap-[8px] xl:gap-[20px]">
                         <div class="flex items-center gap-4">
-                            <img src="/img/checklist.png" alt="" class="h-fit" />
+                            <img src="/img/checklist.png" class="h-fit" />
                             <p class="font-16 font-bold">System Design and Implementation</p>
                         </div>
                         <div class="flex items-center gap-4">
-                            <img src="/img/checklist.png" alt="" class="h-fit" />
+                            <img src="/img/checklist.png" class="h-fit" />
                             <p class="font-16 font-bold">Integration with Existing Infrastructure</p>
                         </div>
                         <div class="flex items-center gap-4">
-                            <img src="/img/checklist.png" alt="" class="h-fit" />
+                            <img src="/img/checklist.png" class="h-fit" />
                             <p class="font-16 font-bold">Unified Telecommunication</p>
                         </div>
                     </div>
                 </div>
-                <img src="/img/service3.png" alt="" />
-            </div>
-        </section>
-        <section v-motion-slide-visible-once-right :duration="500" class="section">
-            <div class="div flex flex-col items-center gap-[40px] xl:flex-row xl:gap-[80px]">
-                <div class="">
-                    <p class="font-32 text-c-orange mb-[16px] font-bold xl:mb-[24px] xl:font-semibold">Maintenance & Support</p>
-                    <p class="font-14 font-medium">
-                        Optimize your budget by outsourcing the operation and maintenance of your legacy telephony infrastructure
-                        to our expert team.
-                    </p>
-                    <div class="mt-[20px] flex w-full flex-col gap-[8px] xl:gap-[20px]">
-                        <div class="flex items-center gap-4">
-                            <img src="/img/checklist.png" alt="" class="h-fit" />
-                            <p class="font-16 font-bold">Hardware & Software Maintenance</p>
-                        </div>
-                        <div class="flex items-center gap-4">
-                            <img src="/img/checklist.png" alt="" class="h-fit" />
-                            <p class="font-16 font-bold">Experienced Technicians</p>
-                        </div>
-                        <div class="flex items-center gap-4">
-                            <img src="/img/checklist.png" alt="" class="h-fit" />
-                            <p class="font-16 font-bold">Improve Call Efficiency</p>
-                        </div>
-                    </div>
-                </div>
-                <img src="/img/service4.png" alt="" />
+                <img src="/img/service3.png" />
             </div>
         </section>
 
@@ -179,7 +182,7 @@
         <section v-motion-slide-visible-once-left :duration="500" class="section">
             <div class="div flex flex-col gap-[40px] xl:gap-[80px]">
                 <div class="flex flex-col gap-[24px] text-center">
-                    <h2 class="font-32 text-c-black font-bold">See How Much You Can Save by Upgrading to Cloud PBX</h2>
+                    <h2 class="font-32 font-bold text-c-black">See How Much You Can Save by Upgrading to Cloud PBX</h2>
                     <p class="font-16">
                         Compare the budget to understand how you can efficiently improve the way your company communicates.
                         <span class="font-bold">Assumed installation for 10 branch offices with 10 DID 10 CC offices each.</span>
@@ -187,13 +190,13 @@
                 </div>
                 <div class="xl:gap-[40 px] flex flex-col gap-[24px] text-center xl:flex-row xl:items-center">
                     <div class="flex flex-col gap-[24px]">
-                        <img src="/img/chartmobile1.png" alt="" class="xl:hidden" />
-                        <img src="/img/chartdesktop1.png" alt="" class="hidden xl:flex" />
+                        <img src="/img/chartmobile1.png" class="xl:hidden" />
+                        <img src="/img/chartdesktop1.png" class="hidden xl:flex" />
                     </div>
-                    <p class="font-32 text-c-orange font-bold">VS</p>
+                    <p class="font-32 font-bold text-c-orange">VS</p>
                     <div class="flex flex-col gap-[24px]">
-                        <img src="/img/chartmobile2.png" alt="" class="xl:hidden" />
-                        <img src="/img/chartdesktop2.png" alt="" class="hidden xl:flex" />
+                        <img src="/img/chartmobile2.png" class="xl:hidden" />
+                        <img src="/img/chartdesktop2.png" class="hidden xl:flex" />
                     </div>
                 </div>
             </div>
@@ -203,30 +206,32 @@
         <section v-motion-slide-visible-once-right :duration="500" class="section bg-c-brown">
             <div class="div flex-col justify-between gap-10 xl:flex-row xl:items-center">
                 <div class="flex flex-col gap-6 xl:max-w-[480px]">
-                    <h2 class="font-32 text-c-white font-bold xl:font-semibold">
+                    <h2 class="font-32 font-bold text-c-white xl:font-semibold">
                         Connecting Business Communication Across the Island
                     </h2>
-                    <p class="font-16 text-c-white font-medium">
+                    <p class="font-16 font-medium text-c-white">
                         Our services give all across the places to connect and grow businesses strongly.
                     </p>
                     <div class="flex justify-between">
                         <div class="flex flex-col items-center">
-                            <p class="font-32 text-c-yellow text-center font-bold">20</p>
-                            <p class="font-14 text-c-white text-center font-bold">Big Cities</p>
+                            <p class="font-32 text-center font-bold text-c-yellow">20</p>
+                            <p class="font-14 text-center font-bold text-c-white">Big Cities</p>
                         </div>
                         <div class="flex flex-col items-center">
-                            <p class="font-32 text-c-yellow text-center font-bold">3299</p>
-                            <p class="font-14 text-c-white text-center font-bold">Customers</p>
+                            <p class="font-32 text-center font-bold text-c-yellow">3299</p>
+                            <p class="font-14 text-center font-bold text-c-white">Customers</p>
                         </div>
                         <div class="flex flex-col items-center">
-                            <p class="font-32 text-c-yellow text-center font-bold">28+</p>
-                            <p class="font-14 text-c-white text-center font-bold">Years Experience</p>
+                            <p class="font-32 text-center font-bold text-c-yellow">28+</p>
+                            <p class="font-14 text-center font-bold text-c-white">Years Experience</p>
                         </div>
                     </div>
-
-                    <a href="/" class="btn">Contact Us</a>
+                    <div class="grid grid-cols-1 gap-[16px] xl:grid-cols-2">
+                        <WhatsAppUs />
+                        <a href="#forms" class="btn-outline">Get a Free Audit</a>
+                    </div>
                 </div>
-                <div><img src="/img/indonesia.png" alt="" /></div>
+                <div><img src="/img/indonesia.png" /></div>
             </div>
         </section>
 
@@ -236,16 +241,19 @@
         <!-- CTA (Avoid Misunderstandings) -->
         <section class="section">
             <div class="div">
-                <div class="bg-c-brown flex flex-col gap-[24px] rounded-xl p-[24px] xl:flex-row xl:p-[42px]">
+                <div class="flex flex-col gap-[24px] rounded-xl bg-c-brown p-[24px] xl:flex-row xl:p-[42px]">
                     <div class="flex flex-col gap-[24px]">
-                        <p class="font-32 text-c-white font-semibold">Avoid Misunderstandings and Switch with Ofon!</p>
+                        <p class="font-32 font-semibold text-c-white">Avoid Misunderstandings and Switch with Ofon!</p>
                         <p class="font-16 text-c-white">Need to change the way your business communicate?</p>
-                        <a href="/" class="btn xl:w-fit">Contact Us</a>
+                        <a href="#forms" class="btn xl:w-fit">Contact Us</a>
                     </div>
-                    <img src="/img/call.png" alt="" />
+                    <img src="/img/call.png" />
                 </div>
             </div>
         </section>
+
+        <!-- Forms -->
+        <Forms />
 
         <!-- FAQ -->
         <FAQ />
@@ -254,3 +262,12 @@
         <Footer />
     </main>
 </template>
+
+<script setup>
+useSeoMeta({
+    title: 'Simplified Communication with Advanced Solutions',
+    ogTitle: 'Simplified Communication with Advanced Solutions',
+    description: 'Need to maximize productivity and minimize cost business telecommunications?',
+    ogDescription: 'Need to maximize productivity and minimize cost business telecommunications?',
+});
+</script>
