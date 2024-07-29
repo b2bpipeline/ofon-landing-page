@@ -1,6 +1,8 @@
 <template>
     <section data-aos="fade-up" class="section bg-c-yellow-light py-[40px]">
-        <div class="mx-auto flex w-full flex-col justify-between gap-[24px] px-[16px] sm:max-xl:max-w-[640px] xl:px-[120px]">
+        <div
+            class="mx-auto flex w-full flex-col justify-between gap-[24px] overflow-hidden px-[16px] sm:max-xl:max-w-[640px] xl:px-[120px]"
+        >
             <p class="text-center font-body text-base font-bold text-c-black xl:text-xl">
                 Helping Many Companies for Better Communication
             </p>
