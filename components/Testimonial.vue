@@ -5,7 +5,7 @@
                 <p class="font-14 mb-[8px] font-bold text-c-orange">TESTIMONIALS</p>
                 <p class="font-32 font-bold text-c-black">Hear It Directly from Our Happy Clients</p>
             </div>
-            <UCarousel v-slot="{ item }" :items="items" :ui="{ item: 'w-full basis-full' }" arrows>
+            <UCarousel v-slot="{ item }" :items="items" :ui="{ item: 'w-full basis-full' }">
                 <div
                     class="card-hover flex w-full flex-col gap-[30px] rounded-2xl border-[2px] border-c-orange p-[24px] xl:m-[20px]"
                 >
@@ -32,38 +32,11 @@
 <script setup lang="ts">
 const items = [
     {
-        name: 'Alexandre Wong',
-        companies: 'PGN',
+        name: 'Armika Jaya',
+        companies: 'IT Director of Potato Head Family',
         testimoinal:
-            'Really great to work with Ofon! Such a great opportunity to find automatic telecommunication, make it easy, simple and effective.',
+            'Ofon service goes beyond expectations. Besides the ease of registration and installation, their after-sales support is very responsive. This clearly makes it the only alternative to conventional landlines that truly please its customers.',
         avatar: '/img/avatar1.png',
-    },
-    {
-        name: 'Alexandre Wong',
-        companies: 'MATAHARI',
-        testimoinal:
-            'Before Ofon we find it’s hard to managet our internal communication yet also the expensive services. But after we find Ofon, everything become All-In-One solution. ',
-        avatar: '/img/avatar2.png',
-    },
-    {
-        name: 'Alexandre Wong',
-        companies: 'Tiket.com',
-        testimoinal: 'Good job for Ofon and team. To make our communication through everything became timeless and efficient. ',
-        avatar: '/img/avatar3.png',
-    },
-    {
-        name: 'Alexandre Wong',
-        companies: 'PGN',
-        testimoinal:
-            'Really great to work with Ofon! Such a great opportunity to find automatic telecommunication, make it easy, simple and effective.',
-        avatar: '/img/avatar1.png',
-    },
-    {
-        name: 'Alexandre Wong',
-        companies: 'MATAHARI',
-        testimoinal:
-            'Before Ofon we find it’s hard to managet our internal communication yet also the expensive services. But after we find Ofon, everything become All-In-One solution. ',
-        avatar: '/img/avatar2.png',
     },
 ];
 </script>
