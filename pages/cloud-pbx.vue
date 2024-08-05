@@ -1,8 +1,5 @@
 <template>
     <main>
-        <!-- Navbar -->
-        <Navbar />
-
         <!-- Hero -->
         <section class="section bg-c-white pb-0 pt-[40px] xl:min-h-[685px] xl:bg-[url('/img/background.png')] xl:bg-cover">
             <div class="div flex-col justify-between gap-10 pb-[40px] xl:flex-row xl:items-center xl:justify-center">
@@ -282,9 +279,6 @@
 
         <!-- FAQ -->
         <FAQ />
-
-        <!-- Footer -->
-        <Footer />
     </main>
 </template>
 
