@@ -15,3 +15,11 @@
     filter: blur(0.5rem);
 }
 </style>
+
+<script setup>
+useHead({
+    htmlAttrs: {
+        lang: 'id',
+    },
+});
+</script>

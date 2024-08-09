@@ -10,14 +10,14 @@
                     </p>
                     <div class="flex items-center gap-2 xl:gap-4">
                         <p class="font-16 font-bold">Certified Engineer by</p>
-                        <img src="/img/microsoft.png" class="" />
+                        <img src="/img/microsoft.webp" alt="Image" class="" />
                     </div>
                     <div class="grid grid-cols-1 gap-[16px] xl:grid-cols-2">
                         <WhatsAppUs />
                         <a href="#forms" class="btn-outline">Get a Free Audit</a>
                     </div>
                 </div>
-                <div><img src="/img/hero-lp-1.png" /></div>
+                <div><img src="/img/hero-lp-1.webp" alt="Image" /></div>
             </div>
         </section>
 
@@ -39,11 +39,11 @@
                 <div class="flex flex-col gap-[24px] text-center xl:flex-row xl:gap-[80px]">
                     <div class="flex flex-col gap-[24px]">
                         <p class="font-20 font-bold">On-premise PBX</p>
-                        <img src="/img/pbx2.png" />
+                        <img src="/img/pbx2.webp" alt="Image" />
                     </div>
                     <div class="flex flex-col gap-[24px]">
                         <p class="font-20 font-bold">Ofon Cloud PBX</p>
-                        <img src="/img/pbx1.png" />
+                        <img src="/img/pbx1.webp" alt="Image" />
                     </div>
                 </div>
             </div>
@@ -57,7 +57,7 @@
                 </h2>
                 <div class="flex flex-col gap-[24px] xl:flex-row xl:gap-[60px]">
                     <div class="card-hover flex flex-col gap-[24px] rounded-xl bg-c-white p-[24px]">
-                        <img src="/img/feature1.png" class="h-[64px] w-[64px] xl:h-[80px] xl:w-[80px]" />
+                        <img src="/img/feature1.webp" alt="Image" class="h-[64px] w-[64px] xl:h-[80px] xl:w-[80px]" />
                         <div>
                             <p class="font-16 mb-[8px] font-bold">Cost Reduction</p>
                             <p class="font-14 font-medium">
@@ -67,7 +67,7 @@
                         </div>
                     </div>
                     <div class="card-hover flex flex-col gap-[24px] rounded-xl bg-c-white p-[24px]">
-                        <img src="/img/feature2.png" class="h-[64px] w-[64px] xl:h-[80px] xl:w-[80px]" />
+                        <img src="/img/feature2.webp" alt="Image" class="h-[64px] w-[64px] xl:h-[80px] xl:w-[80px]" />
                         <div>
                             <p class="font-16 mb-[8px] font-bold">Saving Efficiently</p>
                             <p class="font-14 font-medium">
@@ -77,7 +77,7 @@
                         </div>
                     </div>
                     <div class="card-hover flex flex-col gap-[24px] rounded-xl bg-c-white p-[24px]">
-                        <img src="/img/feature3.png" class="h-[64px] w-[64px] xl:h-[80px] xl:w-[80px]" />
+                        <img src="/img/feature3.webp" alt="Image" class="h-[64px] w-[64px] xl:h-[80px] xl:w-[80px]" />
                         <div>
                             <p class="font-16 mb-[8px] font-bold">Hardware Elimination</p>
                             <p class="font-14 font-medium">
@@ -101,20 +101,20 @@
                     </p>
                     <div class="mt-[20px] flex w-full flex-col gap-[8px] xl:gap-[20px]">
                         <div class="flex items-center gap-4">
-                            <img src="/img/checklist.png" class="h-fit" />
+                            <img src="/img/checklist.webp" alt="Image" class="h-fit" />
                             <p class="font-16 font-bold">Hardware & Software Maintenance</p>
                         </div>
                         <div class="flex items-center gap-4">
-                            <img src="/img/checklist.png" class="h-fit" />
+                            <img src="/img/checklist.webp" alt="Image" class="h-fit" />
                             <p class="font-16 font-bold">Experienced Technicians</p>
                         </div>
                         <div class="flex items-center gap-4">
-                            <img src="/img/checklist.png" class="h-fit" />
+                            <img src="/img/checklist.webp" alt="Image" class="h-fit" />
                             <p class="font-16 font-bold">Improve Call Efficiency</p>
                         </div>
                     </div>
                 </div>
-                <img src="/img/service4.png" />
+                <img src="/img/service4.webp" alt="Image" />
             </div>
         </section>
         <section v-motion-slide-visible-once-left :duration="500" class="section">
@@ -127,20 +127,20 @@
                     </p>
                     <div class="mt-[20px] flex w-full flex-col gap-[8px] xl:gap-[20px]">
                         <div class="flex items-center gap-4">
-                            <img src="/img/checklist.png" class="h-fit" />
+                            <img src="/img/checklist.webp" alt="Image" class="h-fit" />
                             <p class="font-16 font-bold">Cost Saving</p>
                         </div>
                         <div class="flex items-center gap-4">
-                            <img src="/img/checklist.png" class="h-fit" />
+                            <img src="/img/checklist.webp" alt="Image" class="h-fit" />
                             <p class="font-16 font-bold">Flexibility and Reliability</p>
                         </div>
                         <div class="flex items-center gap-4">
-                            <img src="/img/checklist.png" class="h-fit" />
+                            <img src="/img/checklist.webp" alt="Image" class="h-fit" />
                             <p class="font-16 font-bold">Advanced Features & Integrations</p>
                         </div>
                     </div>
                 </div>
-                <img src="/img/service1.png" />
+                <img src="/img/service1.webp" alt="Image" />
             </div>
         </section>
         <section v-motion-slide-visible-once-right :duration="500" class="section">
@@ -155,20 +155,20 @@
                     </p>
                     <div class="mt-[20px] flex w-full flex-col gap-[8px] xl:gap-[20px]">
                         <div class="flex items-center gap-4">
-                            <img src="/img/checklist.png" class="h-fit" />
+                            <img src="/img/checklist.webp" alt="Image" class="h-fit" />
                             <p class="font-16 font-bold">System Design and Implementation</p>
                         </div>
                         <div class="flex items-center gap-4">
-                            <img src="/img/checklist.png" class="h-fit" />
+                            <img src="/img/checklist.webp" alt="Image" class="h-fit" />
                             <p class="font-16 font-bold">Integration with Existing Infrastructure</p>
                         </div>
                         <div class="flex items-center gap-4">
-                            <img src="/img/checklist.png" class="h-fit" />
+                            <img src="/img/checklist.webp" alt="Image" class="h-fit" />
                             <p class="font-16 font-bold">Unified Telecommunication</p>
                         </div>
                     </div>
                 </div>
-                <img src="/img/service3.png" />
+                <img src="/img/service3.webp" alt="Image" />
             </div>
         </section>
 
@@ -187,13 +187,13 @@
                 </div>
                 <div class="xl:gap-[40 px] flex flex-col gap-[24px] text-center xl:flex-row xl:items-center">
                     <div class="flex flex-col gap-[24px]">
-                        <img src="/img/chartmobile1.png" class="xl:hidden" />
-                        <img src="/img/chartdesktop1.png" class="hidden xl:flex" />
+                        <img src="/img/chartmobile1.webp" alt="Image" class="xl:hidden" />
+                        <img src="/img/chartdesktop1.webp" alt="Image" class="hidden xl:flex" />
                     </div>
                     <p class="font-32 font-bold text-c-orange">VS</p>
                     <div class="flex flex-col gap-[24px]">
-                        <img src="/img/chartmobile2.png" class="xl:hidden" />
-                        <img src="/img/chartdesktop2.png" class="hidden xl:flex" />
+                        <img src="/img/chartmobile2.webp" alt="Image" class="xl:hidden" />
+                        <img src="/img/chartdesktop2.webp" alt="Image" class="hidden xl:flex" />
                     </div>
                 </div>
             </div>
@@ -228,7 +228,7 @@
                         <a href="#forms" class="btn-outline">Get a Free Audit</a>
                     </div>
                 </div>
-                <div><img src="/img/indonesia.png" /></div>
+                <div><img src="/img/indonesia.webp" alt="Image" /></div>
             </div>
         </section>
 
@@ -246,7 +246,7 @@
                         </p>
                         <a href="#forms" class="btn xl:w-fit">Contact Us</a>
                     </div>
-                    <img src="/img/call.png" />
+                    <img src="/img/call.webp" alt="Image" />
                 </div>
             </div>
         </section>
@@ -262,8 +262,6 @@
 <script setup>
 useSeoMeta({
     title: 'Simplified Communication with Advanced Solutions',
-    ogTitle: 'Simplified Communication with Advanced Solutions',
     description: 'Need to maximize productivity and minimize cost business telecommunications?',
-    ogDescription: 'Need to maximize productivity and minimize cost business telecommunications?',
 });
 </script>

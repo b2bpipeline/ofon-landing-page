@@ -1,7 +1,7 @@
 <template>
     <main>
         <!-- Hero -->
-        <section class="section bg-c-white pb-0 pt-[40px] xl:min-h-[685px] xl:bg-[url('/img/background.png')] xl:bg-cover">
+        <section class="section bg-c-white pb-0 pt-[40px] xl:min-h-[685px] xl:bg-[url('/img/background.webp')] xl:bg-cover">
             <div class="div flex-col justify-between gap-10 pb-[40px] xl:flex-row xl:items-center xl:justify-center">
                 <div class="items-start-center flex flex-col gap-6 text-center xl:max-w-[640px]">
                     <h1 class="font-36 font-bold xl:font-semibold">
@@ -13,7 +13,7 @@
                     </p>
                     <div class="flex justify-center gap-2 xl:gap-3">
                         <p class="font-16 font-bold">Certified Engineer by</p>
-                        <img src="/img/microsoft.png" class="" />
+                        <img src="/img/microsoft.webp" alt="Image" class="" />
                     </div>
                     <div class="grid grid-cols-1 gap-[16px] xl:mx-auto xl:grid-cols-2">
                         <WhatsAppUs />
@@ -21,7 +21,7 @@
                     </div>
                 </div>
             </div>
-            <img src="/img/hero.png" class="mx-auto w-full max-w-[640px] xl:hidden" />
+            <img src="/img/hero.webp" alt="Image" class="mx-auto w-full max-w-[640px] xl:hidden" />
         </section>
 
         <!-- Logo -->
@@ -39,20 +39,20 @@
                     </p>
                     <div class="flex w-full flex-col gap-[8px] xl:gap-[20px]">
                         <div class="flex justify-start gap-4">
-                            <img src="/img/support1.png" class="h-fit" />
+                            <img src="/img/support1.webp" alt="Image" class="h-fit" />
                             <p class="font-16 font-bold">Need Protections and Adjustments with IT Security</p>
                         </div>
                         <div class="flex justify-start gap-4">
-                            <img src="/img/support2.png" class="h-fit" />
+                            <img src="/img/support2.webp" alt="Image" class="h-fit" />
                             <p class="font-16 font-bold">Worries about Adjusting Device Setting</p>
                         </div>
                         <div class="flex justify-start gap-4">
-                            <img src="/img/support3.png" class="h-fit" />
+                            <img src="/img/support3.webp" alt="Image" class="h-fit" />
                             <p class="font-16 font-bold">Disruption and Disconnected Communication</p>
                         </div>
                     </div>
                 </div>
-                <img src="/img/solution.png" />
+                <img src="/img/solution.webp" alt="Image" />
             </div>
         </section>
 
@@ -65,7 +65,7 @@
                     </h2>
                     <div class="flex flex-col gap-[24px] xl:my-[16px] xl:grid xl:grid-cols-3 xl:flex-row xl:gap-[60px]">
                         <div class="flex flex-col items-center gap-[24px] rounded-xl p-[24px] transition hover:bg-[#3C3C3C]">
-                            <img src="/img/solution1.png" class="h-[64px] w-[64px] xl:h-[80px] xl:w-[80px]" />
+                            <img src="/img/solution1.webp" alt="Image" class="h-[64px] w-[64px] xl:h-[80px] xl:w-[80px]" />
                             <div>
                                 <p class="font-16 mb-[8px] text-center font-bold text-c-white">
                                     Compliance to IT Security Policies
@@ -77,7 +77,7 @@
                             </div>
                         </div>
                         <div class="flex flex-col items-center gap-[24px] rounded-xl p-[24px] transition hover:bg-[#3C3C3C]">
-                            <img src="/img/solution2.png" class="h-[64px] w-[64px] xl:h-[80px] xl:w-[80px]" />
+                            <img src="/img/solution2.webp" alt="Image" class="h-[64px] w-[64px] xl:h-[80px] xl:w-[80px]" />
                             <div>
                                 <p class="font-16 mb-[8px] text-center font-bold text-c-white">Adapt to Network Configuration</p>
                                 <p class="font-14 font-regular text-center text-c-white">
@@ -86,7 +86,7 @@
                             </div>
                         </div>
                         <div class="flex flex-col items-center gap-[24px] rounded-xl p-[24px] transition hover:bg-[#3C3C3C]">
-                            <img src="/img/solution3.png" class="h-[64px] w-[64px] xl:h-[80px] xl:w-[80px]" />
+                            <img src="/img/solution3.webp" alt="Image" class="h-[64px] w-[64px] xl:h-[80px] xl:w-[80px]" />
                             <div>
                                 <p class="font-16 mb-[8px] text-center font-bold text-c-white">
                                     Integrate to Other Softwares & Platform
@@ -105,7 +105,7 @@
         <!-- 2 Services -->
         <section v-motion-slide-visible-once-right :duration="500" class="section">
             <div class="div flex flex-col items-center gap-[40px] xl:flex-row xl:gap-[80px]">
-                <img src="/img/service1.png" class="xl:order-1" />
+                <img src="/img/service1.webp" alt="Image" class="xl:order-1" />
                 <div class="flex flex-col gap-[16px] xl:gap-[24px]">
                     <p class="font-32 font-bold text-c-orange xl:font-semibold">Cloud PBX</p>
                     <p class="font-14 font-medium">
@@ -114,15 +114,15 @@
                     </p>
                     <div class="flex w-full flex-col gap-[8px] xl:gap-[20px]">
                         <div class="flex justify-start gap-4">
-                            <img src="/img/checklist.png" class="h-fit" />
+                            <img src="/img/checklist.webp" alt="Image" class="h-fit" />
                             <p class="font-16 font-bold">Advanced Features</p>
                         </div>
                         <div class="flex justify-start gap-4">
-                            <img src="/img/checklist.png" class="h-fit" />
+                            <img src="/img/checklist.webp" alt="Image" class="h-fit" />
                             <p class="font-16 font-bold">Low Maintenance</p>
                         </div>
                         <div class="flex justify-start gap-4">
-                            <img src="/img/checklist.png" class="h-fit" />
+                            <img src="/img/checklist.webp" alt="Image" class="h-fit" />
                             <p class="font-16 font-bold">Seamless Integration</p>
                         </div>
                     </div>
@@ -131,7 +131,7 @@
         </section>
         <section v-motion-slide-visible-once-left :duration="500" class="section">
             <div class="div flex flex-col items-center gap-[40px] xl:flex-row xl:gap-[80px]">
-                <img src="/img/service3.png" />
+                <img src="/img/service3.webp" alt="Image" />
                 <div class="flex flex-col gap-[16px] xl:gap-[24px]">
                     <p class="font-32 font-bold text-c-orange xl:font-semibold">Maintenance & Support</p>
                     <p class="font-14 font-medium">
@@ -140,15 +140,15 @@
                     </p>
                     <div class="flex w-full flex-col gap-[8px] xl:gap-[20px]">
                         <div class="flex justify-start gap-4">
-                            <img src="/img/checklist.png" class="h-fit" />
+                            <img src="/img/checklist.webp" alt="Image" class="h-fit" />
                             <p class="font-16 font-bold">Hardware & Software Maintenance</p>
                         </div>
                         <div class="flex justify-start gap-4">
-                            <img src="/img/checklist.png" class="h-fit" />
+                            <img src="/img/checklist.webp" alt="Image" class="h-fit" />
                             <p class="font-16 font-bold">Infrastructure Integration</p>
                         </div>
                         <div class="flex justify-start gap-4">
-                            <img src="/img/checklist.png" class="h-fit" />
+                            <img src="/img/checklist.webp" alt="Image" class="h-fit" />
                             <p class="font-16 font-bold">Improve Call Efficiency</p>
                         </div>
                     </div>
@@ -165,7 +165,7 @@
                 <h2 class="font-32 text-center font-bold text-c-orange xl:font-semibold">What Makes Us Different</h2>
                 <div class="flex flex-col gap-[24px] xl:grid xl:grid-cols-3 xl:flex-row xl:gap-[60px]">
                     <div class="card-hover flex flex-col gap-[24px] rounded-xl border-[2px] border-c-orange bg-c-white p-[24px]">
-                        <img src="/img/different1.png" class="h-[64px] w-[64px] xl:h-[80px] xl:w-[80px]" />
+                        <img src="/img/different1.webp" alt="Image" class="h-[64px] w-[64px] xl:h-[80px] xl:w-[80px]" />
                         <div>
                             <p class="font-16 mb-[8px] font-bold">Modernization of Legacy Systems</p>
                             <p class="font-14 font-medium">
@@ -175,7 +175,7 @@
                         </div>
                     </div>
                     <div class="card-hover flex flex-col gap-[24px] rounded-xl border-[2px] border-c-orange bg-c-white p-[24px]">
-                        <img src="/img/different2.png" class="h-[64px] w-[64px] xl:h-[80px] xl:w-[80px]" />
+                        <img src="/img/different2.webp" alt="Image" class="h-[64px] w-[64px] xl:h-[80px] xl:w-[80px]" />
                         <div>
                             <p class="font-16 mb-[8px] font-bold">Unified Communication</p>
                             <p class="font-14 font-medium">
@@ -186,7 +186,7 @@
                         </div>
                     </div>
                     <div class="card-hover flex flex-col gap-[24px] rounded-xl border-[2px] border-c-orange bg-c-white p-[24px]">
-                        <img src="/img/different3.png" class="h-[64px] w-[64px] xl:h-[80px] xl:w-[80px]" />
+                        <img src="/img/different3.webp" alt="Image" class="h-[64px] w-[64px] xl:h-[80px] xl:w-[80px]" />
                         <div>
                             <p class="font-16 mb-[8px] font-bold">CPBX Needs Customization</p>
                             <p class="font-14 font-medium">
@@ -211,13 +211,13 @@
                 </div>
                 <div class="xl:gap-[40 px] flex flex-col gap-[24px] text-center xl:flex-row xl:items-center">
                     <div class="flex flex-col gap-[24px]">
-                        <img src="/img/chartmobile1.png" class="xl:hidden" />
-                        <img src="/img/chartdesktop1.png" class="hidden xl:flex" />
+                        <img src="/img/chartmobile1.webp" alt="Image" class="xl:hidden" />
+                        <img src="/img/chartdesktop1.webp" alt="Image" class="hidden xl:flex" />
                     </div>
                     <p class="font-32 font-bold text-c-orange">VS</p>
                     <div class="flex flex-col gap-[24px]">
-                        <img src="/img/chartmobile2.png" class="xl:hidden" />
-                        <img src="/img/chartdesktop2.png" class="hidden xl:flex" />
+                        <img src="/img/chartmobile2.webp" alt="Image" class="xl:hidden" />
+                        <img src="/img/chartdesktop2.webp" alt="Image" class="hidden xl:flex" />
                     </div>
                 </div>
             </div>
@@ -250,7 +250,7 @@
 
                     <a href="#forms" class="btn">Contact Us</a>
                 </div>
-                <div><img src="/img/indonesia.png" /></div>
+                <div><img src="/img/indonesia.webp" alt="Image" /></div>
             </div>
         </section>
 
@@ -269,7 +269,7 @@
                         </p>
                         <a href="#forms" class="btn xl:w-fit">Contact Us</a>
                     </div>
-                    <img src="/img/call.png" />
+                    <img src="/img/call.webp" alt="Image" />
                 </div>
             </div>
         </section>
@@ -285,10 +285,7 @@
 <script setup>
 useSeoMeta({
     title: 'Say Goodbye to the High Maintenance and Outdated Telephone Systems',
-    ogTitle: 'Say Goodbye to the High Maintenance and Outdated Telephone Systems',
     description:
-        'Still use outdated telephone system with higher maintenance? No way! Upgrade to a modern designed of communication and boost the efficiency.',
-    ogDescription:
         'Still use outdated telephone system with higher maintenance? No way! Upgrade to a modern designed of communication and boost the efficiency.',
 });
 </script>

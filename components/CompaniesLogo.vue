@@ -7,22 +7,22 @@
                 Helping Many Companies for Better Communication
             </p>
             <div class="flex animate-loop-scroll items-center gap-[32px] xl:gap-[120px]">
-                <img src="/img/logo-1.png" class="h-fit" />
-                <img src="/img/logo-2.png" class="h-fit" />
-                <img src="/img/logo-3.png" class="h-fit" />
-                <img src="/img/logo-4.png" class="h-fit" />
-                <img src="/img/logo-5.png" class="h-fit" />
-                <img src="/img/logo-6.png" class="h-fit" />
-                <img src="/img/logo-7.png" class="h-fit" />
-                <img src="/img/logo-8.png" class="h-fit" />
-                <img src="/img/logo-1.png" class="h-fit" />
-                <img src="/img/logo-2.png" class="h-fit" />
-                <img src="/img/logo-3.png" class="h-fit" />
-                <img src="/img/logo-4.png" class="h-fit" />
-                <img src="/img/logo-5.png" class="h-fit" />
-                <img src="/img/logo-6.png" class="h-fit" />
-                <img src="/img/logo-7.png" class="h-fit" />
-                <img src="/img/logo-8.png" class="h-fit" />
+                <img src="/img/logo-1.webp" alt="Image" class="h-fit" />
+                <img src="/img/logo-2.webp" alt="Image" class="h-fit" />
+                <img src="/img/logo-3.webp" alt="Image" class="h-fit" />
+                <img src="/img/logo-4.webp" alt="Image" class="h-fit" />
+                <img src="/img/logo-5.webp" alt="Image" class="h-fit" />
+                <img src="/img/logo-6.webp" alt="Image" class="h-fit" />
+                <img src="/img/logo-7.webp" alt="Image" class="h-fit" />
+                <img src="/img/logo-8.webp" alt="Image" class="h-fit" />
+                <img src="/img/logo-1.webp" alt="Image" class="h-fit" />
+                <img src="/img/logo-2.webp" alt="Image" class="h-fit" />
+                <img src="/img/logo-3.webp" alt="Image" class="h-fit" />
+                <img src="/img/logo-4.webp" alt="Image" class="h-fit" />
+                <img src="/img/logo-5.webp" alt="Image" class="h-fit" />
+                <img src="/img/logo-6.webp" alt="Image" class="h-fit" />
+                <img src="/img/logo-7.webp" alt="Image" class="h-fit" />
+                <img src="/img/logo-8.webp" alt="Image" class="h-fit" />
             </div>
         </div>
     </section>

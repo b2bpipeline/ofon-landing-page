@@ -12,14 +12,14 @@
                     </p>
                     <div class="flex items-center gap-2 xl:gap-4">
                         <p class="font-16 font-bold">Certified Engineer by</p>
-                        <img src="/img/microsoft.png" class="" />
+                        <img src="/img/microsoft.webp" alt="Image" class="" />
                     </div>
                     <div class="grid grid-cols-1 gap-[16px] xl:grid-cols-2">
                         <WhatsAppUs />
                         <a href="#forms" class="btn-outline">Get a Free Audit</a>
                     </div>
                 </div>
-                <div><img src="/img/lp4-hero.png" /></div>
+                <div><img src="/img/lp4-hero.webp" alt="Image" /></div>
             </div>
         </section>
 
@@ -40,7 +40,7 @@
                 </div>
                 <div class="flex flex-col gap-[24px] xl:grid xl:grid-cols-3 xl:flex-row xl:gap-[36px]">
                     <div class="card-hover flex flex-col gap-[24px] rounded-xl border-[2px] border-c-orange bg-c-white p-[24px]">
-                        <img src="/img/lp4-feat1.png" class="h-[64px] w-[64px] xl:h-[80px] xl:w-[80px]" />
+                        <img src="/img/lp4-feat1.webp" alt="Image" class="h-[64px] w-[64px] xl:h-[80px] xl:w-[80px]" />
                         <div>
                             <p class="font-16 mb-[8px] font-bold">Integration between PBX Phone Systems</p>
                             <p class="font-14 font-medium">
@@ -49,15 +49,15 @@
                             </p>
                         </div>
                         <div class="my-[16px] flex flex-wrap items-center gap-[16px]">
-                            <img src="/img/sm-logo1.png" />
-                            <img src="/img/sm-logo2.png" />
-                            <img src="/img/sm-logo3.png" />
-                            <img src="/img/sm-logo4.png" />
-                            <img src="/img/sm-logo5.png" />
+                            <img src="/img/sm-logo1.webp" alt="Image" />
+                            <img src="/img/sm-logo2.webp" alt="Image" />
+                            <img src="/img/sm-logo3.webp" alt="Image" />
+                            <img src="/img/sm-logo4.webp" alt="Image" />
+                            <img src="/img/sm-logo5.webp" alt="Image" />
                         </div>
                     </div>
                     <div class="card-hover flex flex-col gap-[24px] rounded-xl border-[2px] border-c-orange bg-c-white p-[24px]">
-                        <img src="/img/lp4-feat2.png" class="h-[64px] w-[64px] xl:h-[80px] xl:w-[80px]" />
+                        <img src="/img/lp4-feat2.webp" alt="Image" class="h-[64px] w-[64px] xl:h-[80px] xl:w-[80px]" />
                         <div>
                             <p class="font-16 mb-[8px] font-bold">Integration to Unified Communication Platform</p>
                             <p class="font-14 font-medium">
@@ -67,21 +67,21 @@
                         </div>
                         <div class="my-[16px] flex flex-col items-start gap-[16px]">
                             <div class="flex gap-[8px]">
-                                <img src="/img/xs-logo1.png" />
+                                <img src="/img/xs-logo1.webp" alt="Image" />
                                 <p class="font-14 font-semibold">Microsoft Teams Integration</p>
                             </div>
                             <div class="flex gap-[8px]">
-                                <img src="/img/xs-logo2.png" />
+                                <img src="/img/xs-logo2.webp" alt="Image" />
                                 <p class="font-14 font-semibold">Cisco Webex Integration</p>
                             </div>
                             <div class="flex gap-[8px]">
-                                <img src="/img/xs-logo3.png" />
+                                <img src="/img/xs-logo3.webp" alt="Image" />
                                 <p class="font-14 font-semibold">Zoom Integration</p>
                             </div>
                         </div>
                     </div>
                     <div class="card-hover flex flex-col gap-[24px] rounded-xl border-[2px] border-c-orange bg-c-white p-[24px]">
-                        <img src="/img/lp4-feat3.png" class="h-[64px] w-[64px] xl:h-[80px] xl:w-[80px]" />
+                        <img src="/img/lp4-feat3.webp" alt="Image" class="h-[64px] w-[64px] xl:h-[80px] xl:w-[80px]" />
                         <div>
                             <p class="font-16 mb-[8px] font-bold">Integration to CRM Software</p>
                             <p class="font-14 font-medium">
@@ -91,15 +91,15 @@
                         </div>
                         <div class="my-[16px] flex flex-col items-start gap-[16px]">
                             <div class="flex gap-[8px]">
-                                <img src="/img/xs-logo4.png" />
+                                <img src="/img/xs-logo4.webp" alt="Image" />
                                 <p class="font-14 font-semibold">Salesforce Integration</p>
                             </div>
                             <div class="flex gap-[8px]">
-                                <img src="/img/xs-logo5.png" />
+                                <img src="/img/xs-logo5.webp" alt="Image" />
                                 <p class="font-14 font-semibold">Hubspot Integration</p>
                             </div>
                             <div class="flex gap-[8px]">
-                                <img src="/img/xs-logo6.png" />
+                                <img src="/img/xs-logo6.webp" alt="Image" />
                                 <p class="font-14 font-semibold">Zoho Integration</p>
                             </div>
                         </div>
@@ -119,20 +119,20 @@
                     </p>
                     <div class="flex w-full flex-col gap-[8px] xl:gap-[20px]">
                         <div class="flex justify-start gap-4">
-                            <img src="/img/checklist.png" class="h-fit" />
+                            <img src="/img/checklist.webp" alt="Image" class="h-fit" />
                             <p class="font-16 font-bold">System Design and Implementation</p>
                         </div>
                         <div class="flex justify-start gap-4">
-                            <img src="/img/checklist.png" class="h-fit" />
+                            <img src="/img/checklist.webp" alt="Image" class="h-fit" />
                             <p class="font-16 font-bold">Integration with Existing Infrastructure</p>
                         </div>
                         <div class="flex justify-start gap-4">
-                            <img src="/img/checklist.png" class="h-fit" />
+                            <img src="/img/checklist.webp" alt="Image" class="h-fit" />
                             <p class="font-16 font-bold">Training and Support</p>
                         </div>
                     </div>
                 </div>
-                <img src="/img/service3.png" class="xl:order-1" />
+                <img src="/img/service3.webp" alt="Image" class="xl:order-1" />
             </div>
         </section>
         <section v-motion-slide-visible-once-right :duration="500" class="section">
@@ -145,20 +145,20 @@
                     </p>
                     <div class="flex w-full flex-col gap-[8px] xl:gap-[20px]">
                         <div class="flex justify-start gap-4">
-                            <img src="/img/checklist.png" class="h-fit" />
+                            <img src="/img/checklist.webp" alt="Image" class="h-fit" />
                             <p class="font-16 font-bold">Cost Saving</p>
                         </div>
                         <div class="flex justify-start gap-4">
-                            <img src="/img/checklist.png" class="h-fit" />
+                            <img src="/img/checklist.webp" alt="Image" class="h-fit" />
                             <p class="font-16 font-bold">Flexibility and Reliability</p>
                         </div>
                         <div class="flex justify-start gap-4">
-                            <img src="/img/checklist.png" class="h-fit" />
+                            <img src="/img/checklist.webp" alt="Image" class="h-fit" />
                             <p class="font-16 font-bold">Advanced Features</p>
                         </div>
                     </div>
                 </div>
-                <img src="/img/service1.png" />
+                <img src="/img/service1.webp" alt="Image" />
             </div>
         </section>
 
@@ -171,7 +171,7 @@
                     </h2>
                     <div class="flex flex-col gap-[24px] xl:my-[16px] xl:grid xl:grid-cols-3 xl:flex-row xl:gap-[60px]">
                         <div class="flex flex-col items-center gap-[24px] rounded-xl p-[24px] transition hover:bg-[#3C3C3C]">
-                            <img src="/img/lp4-solution1.png" class="h-[64px] w-[64px] xl:h-[80px] xl:w-[80px]" />
+                            <img src="/img/lp4-solution1.webp" alt="Image" class="h-[64px] w-[64px] xl:h-[80px] xl:w-[80px]" />
                             <div>
                                 <p class="font-16 mb-[8px] text-center font-bold text-c-white">
                                     Integration for Customer Service
@@ -183,7 +183,7 @@
                             </div>
                         </div>
                         <div class="flex flex-col items-center gap-[24px] rounded-xl p-[24px] transition hover:bg-[#3C3C3C]">
-                            <img src="/img/lp4-solution2.png" class="h-[64px] w-[64px] xl:h-[80px] xl:w-[80px]" />
+                            <img src="/img/lp4-solution2.webp" alt="Image" class="h-[64px] w-[64px] xl:h-[80px] xl:w-[80px]" />
                             <div>
                                 <p class="font-16 mb-[8px] text-center font-bold text-c-white">
                                     Simplify Management Team Operation
@@ -195,7 +195,7 @@
                             </div>
                         </div>
                         <div class="flex flex-col items-center gap-[24px] rounded-xl p-[24px] transition hover:bg-[#3C3C3C]">
-                            <img src="/img/lp4-solution3.png" class="h-[64px] w-[64px] xl:h-[80px] xl:w-[80px]" />
+                            <img src="/img/lp4-solution3.webp" alt="Image" class="h-[64px] w-[64px] xl:h-[80px] xl:w-[80px]" />
                             <div>
                                 <p class="font-16 mb-[8px] text-center font-bold text-c-white">Connect to Popular Sales CRM</p>
                                 <p class="font-14 font-regular text-center text-c-white">
@@ -221,7 +221,7 @@
                     </p>
                     <div class="flex w-full flex-col gap-[8px] xl:gap-[20px]">
                         <div class="card-hover flex items-start gap-[16px] rounded-xl border-2 border-c-orange p-[16px]">
-                            <img src="/img/lp4-point1.png" />
+                            <img src="/img/lp4-point1.webp" alt="Image" />
                             <div class="flex flex-col gap-[8px]">
                                 <p class="font-14 font-bold">Certified Technicians</p>
                                 <p class="font-12">
@@ -230,14 +230,14 @@
                             </div>
                         </div>
                         <div class="card-hover flex items-start gap-[16px] rounded-xl border-2 border-c-orange p-[16px]">
-                            <img src="/img/lp4-point2.png" />
+                            <img src="/img/lp4-point2.webp" alt="Image" />
                             <div class="flex flex-col gap-[8px]">
                                 <p class="font-14 font-bold">Cost Efficiency</p>
                                 <p class="font-12">Achieve optimal cost efficiency to save and improve financial performance.</p>
                             </div>
                         </div>
                         <div class="card-hover flex items-start gap-[16px] rounded-xl border-2 border-c-orange p-[16px]">
-                            <img src="/img/lp4-point3.png" />
+                            <img src="/img/lp4-point3.webp" alt="Image" />
                             <div class="flex flex-col gap-[8px]">
                                 <p class="font-14 font-bold">Customized Solution</p>
                                 <p class="font-12">Our team collaborates to design a solution that is suitable to your needs.</p>
@@ -245,7 +245,7 @@
                         </div>
                     </div>
                 </div>
-                <img src="/img/lp4-why.png" />
+                <img src="/img/lp4-why.webp" alt="Image" />
             </div>
         </section>
 
@@ -260,11 +260,11 @@
                     <p class="font-16 font-medium">Our long-standing commitment can grow your telecommunications strategy.</p>
                     <div class="flex items-center gap-2 xl:gap-4">
                         <p class="font-16 font-bold">Certified Engineer by</p>
-                        <img src="/img/microsoft.png" class="" />
+                        <img src="/img/microsoft.webp" alt="Image" class="" />
                     </div>
                     <a href="#forms" class="btn">Read Case Study</a>
                 </div>
-                <div><img src="/img/lp4-testi.png" /></div>
+                <div><img src="/img/lp4-testi.webp" alt="Image" /></div>
             </div>
         </section>
 
@@ -281,7 +281,7 @@
                         </p>
                         <a href="#forms" class="btn xl:w-fit">Contact Us</a>
                     </div>
-                    <img src="/img/lp4-cta.png" />
+                    <img src="/img/lp4-cta.webp" alt="Image" />
                 </div>
             </div>
         </section>
@@ -297,10 +297,7 @@
 <script setup>
 useSeoMeta({
     title: 'Integrate & Manage Any Phone System Seamlessly',
-    ogTitle: 'Integrate & Manage Any Phone System Seamlessly',
     description:
-        'Build your communication infrastructure and become effortlessly productive. Adapts to your needs, providing efficient communication across devices & networks with an efficient budget.',
-    ogDescription:
         'Build your communication infrastructure and become effortlessly productive. Adapts to your needs, providing efficient communication across devices & networks with an efficient budget.',
 });
 </script>

@@ -5,7 +5,7 @@
             class="btn"
             target="_blank"
         >
-            <img src="../public/img/wa.png" class="mr-1" />
+            <img src="../public/img/wa.webp" alt="Image" class="mr-1" />
             WhatsApp Us</a
         >
     </main>
