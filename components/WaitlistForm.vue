@@ -36,7 +36,8 @@ async function handleSubmit(event: FormSubmitEvent<CreateWaitlistType>) {
         });
 
         state.value = { ...initialState };
-        toast.success('Coungratulations! You have successfully signed up for the waitlist. We will get back to you soon.');
+        // toast.success('Coungratulations! You have successfully signed up for the waitlist. We will get back to you soon.');
+        await navigateTo('/thank-you');
     } catch (e) {
         console.error('Error submitting form', e);
         toast.error(getErrorMessage(e));
