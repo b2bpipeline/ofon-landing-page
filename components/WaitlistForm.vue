@@ -14,7 +14,7 @@ const initialState: CreateWaitlistType = {
     website: '',
     size_id: '',
     message: '',
-    source: 'form',
+    source: 'Form',
     user_id: '1d7c5d75-0024-4f0e-9aef-94b73dc640c4',
     organization_id: 56,
 };
